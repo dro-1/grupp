@@ -25,12 +25,11 @@ export const useRoles = (page: number = 1) => {
       setLoading(true);
       setError("");
       try {
-        const data = await getRoles();
-        const mapped = (data ?? []).map((role: APIRole) => {
+        const data: APIRole[] = await getRoles();
+        const mapped = (data ?? []).map<Role>((role: APIRole) => {
           const userCount = role.totalUser;
           const users = normalizeUsers(role.users, userCount);
-          const { totalUser, ...rest } = role;
-          return { ...rest, userCount, users };
+          return { ...role, userCount, users };
         });
         setRoles(mapped);
       } catch (err) {
