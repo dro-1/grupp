@@ -23,7 +23,7 @@ export const RolesTable = () => {
             <div className="flex items-center group">
               <div
                 className={twMerge(
-                  "w-5 h-5 bg-white cursor-pointer border border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition hover:border-primary-600 hover:bg-primary-50",
+                  "w-5 h-5 bg-white cursor-pointer border border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50",
                   selectedRoles.length == roles.length &&
                     "border-primary-600 bg-primary-50"
                 )}
@@ -44,22 +44,22 @@ export const RolesTable = () => {
                   )}
                 />
               </div>
-              <span className="font-medium text-xs tracking-0 text-gray-500 transition group-hover:text-gray-700">
+              <span className="font-medium text-xs tracking-0 text-gray-500 transition group-lg:hover:text-gray-700">
                 Name
               </span>
               <img src={arrowDown} alt="" className="inline-block ml-1" />
             </div>
           </th>
-          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left sm:table-cell transition hover:text-gray-700">
+          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left sm:table-cell transition lg:hover:text-gray-700">
             Type
           </th>
-          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left transition hover:text-gray-700">
+          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left transition lg:hover:text-gray-700">
             Date Created
           </th>
-          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden md:table-cell transition hover:text-gray-700">
+          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden md:table-cell transition lg:hover:text-gray-700">
             Status
           </th>
-          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell transition hover:text-gray-700">
+          <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell transition lg:hover:text-gray-700">
             Role Users
           </th>
           <th className="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell"></th>
@@ -69,13 +69,13 @@ export const RolesTable = () => {
         {roles.map((role, idx) => (
           <tr
             key={idx}
-            className="bg-white border-y border-gray-200 py-3 px-6 transition hover:bg-gray-50"
+            className="bg-white border-y border-gray-200 py-3 px-6 transition lg:hover:bg-gray-50"
           >
             <td className="py-6 px-6">
               <div className="flex items-center">
                 <div
                   className={twMerge(
-                    "w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition hover:border-primary-600 hover:bg-primary-50",
+                    "w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50",
                     selectedRoles.includes(role.name) &&
                       "border-primary-600 bg-primary-50"
                   )}

@@ -120,7 +120,7 @@ export const Navbar = () => {
               <li key={idx}>
                 <a
                   href="/"
-                  className="flex justify-between items-center px-3 py-2 transition hover:bg-gray-50"
+                  className="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
                 >
                   <div className="flex">
                     <img
@@ -150,7 +150,7 @@ export const Navbar = () => {
               <li key={idx}>
                 <a
                   href="/"
-                  className="flex justify-between items-center px-3 py-2 transition hover:bg-gray-50"
+                  className="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
                 >
                   <div className="flex">
                     <img
@@ -180,10 +180,10 @@ export const Navbar = () => {
             alt=""
           />
           <div>
-            <button className="font-medium text-sm text-gray-500 mr-3 transition hover:text-gray-400">
+            <button className="font-medium text-sm text-gray-500 mr-3 transition lg:hover:text-gray-400">
               Dismiss
             </button>
-            <button className="font-medium text-sm text-primary-700 transition hover:text-primary-900">
+            <button className="font-medium text-sm text-primary-700 transition lg:hover:text-primary-900">
               What's new?
             </button>
           </div>
@@ -203,7 +203,7 @@ export const Navbar = () => {
             </em>
           </div>
           <div className="grow" />
-          <button className="w-9 h-9 rounded-lg flex justify-center items-center transition hover:bg-gray-50">
+          <button className="w-9 h-9 rounded-lg flex justify-center items-center transition lg:hover:bg-gray-50">
             <img src={logout} alt="" />
           </button>
         </div>

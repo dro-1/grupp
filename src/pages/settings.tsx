@@ -41,7 +41,7 @@ export const Settings = () => {
               <button
                 key={idx}
                 className={twMerge(
-                  "px-4 py-2 shrink-0 font-medium text-sm text-gray-700 bg-white border border-gray-300 border-r-0 last:border-r transition hover:bg-gray-50",
+                  "px-4 py-2 shrink-0 font-medium text-sm text-gray-700 bg-white border border-gray-300 border-r-0 last:border-r transition lg:hover:bg-gray-50",
                   idx == 0 && "rounded-l-lg",
                   idx == tabs.length - 1 && "rounded-r-lg",
                   tab == "Roles" && "bg-gray-50"
@@ -121,7 +121,7 @@ export const Settings = () => {
                     />
                   ))}
                 </div>
-                <button className="flex mt-4 font-medium text-sm text-gray-500 transition hover:text-gray-700">
+                <button className="flex mt-4 font-medium text-sm text-gray-500 transition lg:hover:text-gray-700">
                   <img src={add} alt="" className="inline-block mr-2" />
                   Add role to user
                 </button>
@@ -132,7 +132,7 @@ export const Settings = () => {
                 <h3 className="text-gray-900 font-medium text-lg mb-4">
                   User Roles
                 </h3>
-                <button className="bg-white border border-gray-300 py-[10px] px-4 rounded-lg flex font-medium text-sm text-gray-700 mb-[25px] transition hover:bg-gray-50">
+                <button className="bg-white border border-gray-300 py-[10px] px-4 rounded-lg flex font-medium text-sm text-gray-700 mb-[25px] transition lg:hover:bg-gray-50">
                   <img src={download} alt="" className="inline-block mr-2" />
                   Download all
                 </button>
