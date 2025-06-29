@@ -5,11 +5,14 @@ import download from "@/assets/icons/download.svg";
 import { RadioButton } from "@/components/radio-button";
 import { ActiveRoleCard } from "@/components/active-role-card";
 import { activeRoles } from "@/utils/constants";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { RolesTable } from "@/components/roles-table";
 import { Navbar } from "@/components/navbar";
 import { InputBox } from "@/components/input-box";
+import { Pagination } from "@/components/pagination";
+import { getPaginationPages } from "@/utils/pagination";
+import { useRoles } from "@/hooks/api";
 
 const tabs = [
   "My Details",
@@ -25,6 +28,24 @@ const tabs = [
 
 export const Settings = () => {
   const [selectedRoleID, setSelectedRoleID] = useState("");
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  const [page, setPage] = useState(1);
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 1024
+  );
+  const { roles } = useRoles(page);
+
+  // Pagination logic
+  const totalPages = 15;
+  const { startPage, endPage, middlePages } = getPaginationPages({
+    page,
+    totalPages,
+    windowWidth,
+  });
   return (
     <div className="lg:flex">
       <Navbar />
@@ -141,7 +162,15 @@ export const Settings = () => {
                 </button>
               </div>
 
-              <RolesTable />
+              <RolesTable roles={roles} />
+              <Pagination
+                page={page}
+                setPage={setPage}
+                startPage={startPage}
+                endPage={endPage}
+                middlePages={middlePages}
+                totalPages={totalPages}
+              />
             </div>
           </main>
         </div>

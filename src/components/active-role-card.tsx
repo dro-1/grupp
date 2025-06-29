@@ -18,9 +18,10 @@ export const ActiveRoleCard: React.FC<RoleCardProps> = ({
     <div
       onClick={onClick}
       className={twMerge(
-        "flex p-4 bg-white border border-gray-200 rounded-lg max-w-[784px]",
+        "flex p-4 bg-white border cursor-pointer border-gray-200 rounded-lg max-w-[784px]",
         selected && "border-primary-300 bg-primary-50"
       )}
+      data-testid={`active-role-card-${activeRole.id}`}
     >
       <div className="bg-white w-[45px] h-[31px] border border-[#f2f4f7] flex justify-center items-center rounded-[6px] mr-3">
         <img src={roleIcon} alt="" />
@@ -61,6 +62,7 @@ export const ActiveRoleCard: React.FC<RoleCardProps> = ({
           "w-4 h-4 bg-white border border-gray-300 rounded-full flex justify-center items-center transition",
           selected && "bg-primary-600 border-primary-600"
         )}
+        data-testid="checkmark-container"
       >
         <img src={check} alt="" />
       </div>

@@ -1,0 +1,508 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Roles Table > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="w-full border border-gray-200 max-w-[700px] min-[700px]:ml-4 lg:ml-8 lg:max-w-[unset] lg:w-[calc(100%-64px)]"
+        style="box-shadow: 0px 2px 4px -2px #1018280F, 0px 4px 8px -2px #1018281A;"
+      >
+        <thead>
+          <tr
+            class="bg-gray-50 border-y border-gray-200 py-3 px-6"
+          >
+            <th
+              class="py-3 px-6"
+            >
+              <div
+                class="flex items-center group"
+              >
+                <div
+                  class="w-5 h-5 bg-white cursor-pointer border border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+                >
+                  <img
+                    alt=""
+                    class="w-[12px] hidden"
+                    src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                </div>
+                <span
+                  class="font-medium text-xs tracking-0 text-gray-500 transition group-lg:hover:text-gray-700"
+                >
+                  Name
+                </span>
+                <img
+                  alt=""
+                  class="inline-block ml-1"
+                  src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.00004%203.33334V12.6667M8.00004%2012.6667L12.6667%208.00001M8.00004%2012.6667L3.33337%208.00001'%20stroke='%23667085'%20stroke-width='1.33333'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+              </div>
+            </th>
+            <th
+              class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden sm:table-cell transition lg:hover:text-gray-700"
+            >
+              Type
+            </th>
+            <th
+              class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left transition lg:hover:text-gray-700"
+            >
+              Date Created
+            </th>
+            <th
+              class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden md:table-cell transition lg:hover:text-gray-700"
+            >
+              Status
+            </th>
+            <th
+              class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell transition lg:hover:text-gray-700"
+            >
+              Role Users
+            </th>
+            <th
+              class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell"
+            />
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="bg-white border-y border-gray-200 py-3 px-6 transition lg:hover:bg-gray-50"
+          >
+            <td
+              class="py-6 px-6"
+            >
+              <div
+                class="flex items-center"
+              >
+                <div
+                  class="w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+                  data-testid="checkbox-0"
+                >
+                  <img
+                    alt=""
+                    class="w-[12px] hidden"
+                    data-testid="checkbox-img-0"
+                    src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                </div>
+                <span
+                  class="font-medium text-sm tracking-0 text-gray-900"
+                >
+                  Deputy sales personnel 26
+                </span>
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden sm:table-cell"
+            >
+              CUSTOM
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left"
+            >
+              Feb 1, 2023
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden md:table-cell"
+            >
+              <div
+                class="flex items-center justify-center w-[67px] h-[22px] rounded-2xl font-medium text-xs tracking-0 bg-orange text-gray-6"
+              >
+                In Active
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden xl:table-cell"
+            >
+              <div
+                class="flex w-[180px] h-[40px] relative"
+              >
+                <img
+                  alt=""
+                  class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                  src="https://avatars.githubusercontent.com/u/20971850?v=4"
+                  style="left: 0px;"
+                />
+                <img
+                  alt=""
+                  class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                  src="https://avatars.githubusercontent.com/u/50866431?v=4"
+                  style="left: 28px;"
+                />
+                <img
+                  alt=""
+                  class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                  src="https://avatars.githubusercontent.com/u/124599?v=4"
+                  style="left: 56px;"
+                />
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 hidden xl:table-cell"
+            >
+              <button>
+                <img
+                  alt=""
+                  src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3086_630)'%3e%3cpath%20d='M6.66667%2014.1667L10%2017.5M10%2017.5L13.3333%2014.1667M10%2017.5V10M17.4%2015.075C18.1245%2014.5655%2018.6678%2013.8385%2018.9511%2012.9993C19.2343%2012.1601%2019.2428%2011.2525%2018.9753%2010.4082C18.7078%209.56387%2018.1782%208.82675%2017.4634%208.30381C16.7486%207.78087%2015.8857%207.49931%2015%207.50001H13.95C13.6994%206.52323%2013.2304%205.61605%2012.5784%204.84674C11.9265%204.07743%2011.1085%203.46606%2010.186%203.05863C9.26356%202.65121%208.26071%202.45836%207.25294%202.4946C6.24518%202.53084%205.25877%202.79523%204.36797%203.26786C3.47717%203.74049%202.70519%204.40905%202.11016%205.2232C1.51513%206.03735%201.11255%206.97588%200.932723%207.96813C0.752897%208.96038%200.800514%209.9805%201.07199%2010.9517C1.34346%2011.9229%201.83172%2012.8198%202.50001%2013.575'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3086_630'%3e%3crect%20width='20'%20height='20'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                />
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="bg-white border-y border-gray-200 py-3 px-6 transition lg:hover:bg-gray-50"
+          >
+            <td
+              class="py-6 px-6"
+            >
+              <div
+                class="flex items-center"
+              >
+                <div
+                  class="w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+                  data-testid="checkbox-1"
+                >
+                  <img
+                    alt=""
+                    class="w-[12px] hidden"
+                    data-testid="checkbox-img-1"
+                    src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                </div>
+                <span
+                  class="font-medium text-sm tracking-0 text-gray-900"
+                >
+                  sales personnel 26
+                </span>
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden sm:table-cell"
+            >
+              DEFAULT
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left"
+            >
+              Jan 1, 2023
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden md:table-cell"
+            >
+              <div
+                class="flex items-center justify-center w-[67px] h-[22px] rounded-2xl font-medium text-xs tracking-0 bg-success-50 text-success-700"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-1"
+                  src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%203L4.5%208.5L2%206'%20stroke='%2312B76A'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                Active
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden xl:table-cell"
+            >
+              <div
+                class="flex w-[180px] h-[40px] relative"
+              >
+                <img
+                  alt=""
+                  class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                  src="https://avatars.githubusercontent.com/u/20971850?v=4"
+                  style="left: 0px;"
+                />
+              </div>
+            </td>
+            <td
+              class="py-6 px-6 hidden xl:table-cell"
+            >
+              <button>
+                <img
+                  alt=""
+                  src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3086_630)'%3e%3cpath%20d='M6.66667%2014.1667L10%2017.5M10%2017.5L13.3333%2014.1667M10%2017.5V10M17.4%2015.075C18.1245%2014.5655%2018.6678%2013.8385%2018.9511%2012.9993C19.2343%2012.1601%2019.2428%2011.2525%2018.9753%2010.4082C18.7078%209.56387%2018.1782%208.82675%2017.4634%208.30381C16.7486%207.78087%2015.8857%207.49931%2015%207.50001H13.95C13.6994%206.52323%2013.2304%205.61605%2012.5784%204.84674C11.9265%204.07743%2011.1085%203.46606%2010.186%203.05863C9.26356%202.65121%208.26071%202.45836%207.25294%202.4946C6.24518%202.53084%205.25877%202.79523%204.36797%203.26786C3.47717%203.74049%202.70519%204.40905%202.11016%205.2232C1.51513%206.03735%201.11255%206.97588%200.932723%207.96813C0.752897%208.96038%200.800514%209.9805%201.07199%2010.9517C1.34346%2011.9229%201.83172%2012.8198%202.50001%2013.575'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3086_630'%3e%3crect%20width='20'%20height='20'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                />
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="w-full border border-gray-200 max-w-[700px] min-[700px]:ml-4 lg:ml-8 lg:max-w-[unset] lg:w-[calc(100%-64px)]"
+      style="box-shadow: 0px 2px 4px -2px #1018280F, 0px 4px 8px -2px #1018281A;"
+    >
+      <thead>
+        <tr
+          class="bg-gray-50 border-y border-gray-200 py-3 px-6"
+        >
+          <th
+            class="py-3 px-6"
+          >
+            <div
+              class="flex items-center group"
+            >
+              <div
+                class="w-5 h-5 bg-white cursor-pointer border border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+              >
+                <img
+                  alt=""
+                  class="w-[12px] hidden"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+              </div>
+              <span
+                class="font-medium text-xs tracking-0 text-gray-500 transition group-lg:hover:text-gray-700"
+              >
+                Name
+              </span>
+              <img
+                alt=""
+                class="inline-block ml-1"
+                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.00004%203.33334V12.6667M8.00004%2012.6667L12.6667%208.00001M8.00004%2012.6667L3.33337%208.00001'%20stroke='%23667085'%20stroke-width='1.33333'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+              />
+            </div>
+          </th>
+          <th
+            class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden sm:table-cell transition lg:hover:text-gray-700"
+          >
+            Type
+          </th>
+          <th
+            class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left transition lg:hover:text-gray-700"
+          >
+            Date Created
+          </th>
+          <th
+            class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden md:table-cell transition lg:hover:text-gray-700"
+          >
+            Status
+          </th>
+          <th
+            class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell transition lg:hover:text-gray-700"
+          >
+            Role Users
+          </th>
+          <th
+            class="py-3 px-6 font-medium text-xs tracking-0 text-gray-500 text-left hidden xl:table-cell"
+          />
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="bg-white border-y border-gray-200 py-3 px-6 transition lg:hover:bg-gray-50"
+        >
+          <td
+            class="py-6 px-6"
+          >
+            <div
+              class="flex items-center"
+            >
+              <div
+                class="w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+                data-testid="checkbox-0"
+              >
+                <img
+                  alt=""
+                  class="w-[12px] hidden"
+                  data-testid="checkbox-img-0"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+              </div>
+              <span
+                class="font-medium text-sm tracking-0 text-gray-900"
+              >
+                Deputy sales personnel 26
+              </span>
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden sm:table-cell"
+          >
+            CUSTOM
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left"
+          >
+            Feb 1, 2023
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden md:table-cell"
+          >
+            <div
+              class="flex items-center justify-center w-[67px] h-[22px] rounded-2xl font-medium text-xs tracking-0 bg-orange text-gray-6"
+            >
+              In Active
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden xl:table-cell"
+          >
+            <div
+              class="flex w-[180px] h-[40px] relative"
+            >
+              <img
+                alt=""
+                class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                src="https://avatars.githubusercontent.com/u/20971850?v=4"
+                style="left: 0px;"
+              />
+              <img
+                alt=""
+                class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                src="https://avatars.githubusercontent.com/u/50866431?v=4"
+                style="left: 28px;"
+              />
+              <img
+                alt=""
+                class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                src="https://avatars.githubusercontent.com/u/124599?v=4"
+                style="left: 56px;"
+              />
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 hidden xl:table-cell"
+          >
+            <button>
+              <img
+                alt=""
+                src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3086_630)'%3e%3cpath%20d='M6.66667%2014.1667L10%2017.5M10%2017.5L13.3333%2014.1667M10%2017.5V10M17.4%2015.075C18.1245%2014.5655%2018.6678%2013.8385%2018.9511%2012.9993C19.2343%2012.1601%2019.2428%2011.2525%2018.9753%2010.4082C18.7078%209.56387%2018.1782%208.82675%2017.4634%208.30381C16.7486%207.78087%2015.8857%207.49931%2015%207.50001H13.95C13.6994%206.52323%2013.2304%205.61605%2012.5784%204.84674C11.9265%204.07743%2011.1085%203.46606%2010.186%203.05863C9.26356%202.65121%208.26071%202.45836%207.25294%202.4946C6.24518%202.53084%205.25877%202.79523%204.36797%203.26786C3.47717%203.74049%202.70519%204.40905%202.11016%205.2232C1.51513%206.03735%201.11255%206.97588%200.932723%207.96813C0.752897%208.96038%200.800514%209.9805%201.07199%2010.9517C1.34346%2011.9229%201.83172%2012.8198%202.50001%2013.575'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3086_630'%3e%3crect%20width='20'%20height='20'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+              />
+            </button>
+          </td>
+        </tr>
+        <tr
+          class="bg-white border-y border-gray-200 py-3 px-6 transition lg:hover:bg-gray-50"
+        >
+          <td
+            class="py-6 px-6"
+          >
+            <div
+              class="flex items-center"
+            >
+              <div
+                class="w-5 h-5 bg-white border cursor-pointer border-gray-300 rounded-[6px] mr-3 flex justify-center items-center transition lg:hover:border-primary-600 lg:hover:bg-primary-50"
+                data-testid="checkbox-1"
+              >
+                <img
+                  alt=""
+                  class="w-[12px] hidden"
+                  data-testid="checkbox-img-1"
+                  src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='%2353389e'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+              </div>
+              <span
+                class="font-medium text-sm tracking-0 text-gray-900"
+              >
+                sales personnel 26
+              </span>
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden sm:table-cell"
+          >
+            DEFAULT
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left"
+          >
+            Jan 1, 2023
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden md:table-cell"
+          >
+            <div
+              class="flex items-center justify-center w-[67px] h-[22px] rounded-2xl font-medium text-xs tracking-0 bg-success-50 text-success-700"
+            >
+              <img
+                alt=""
+                class="inline-block mr-1"
+                src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%203L4.5%208.5L2%206'%20stroke='%2312B76A'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+              />
+              Active
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 text-sm tracking-0 text-gray-500 text-left hidden xl:table-cell"
+          >
+            <div
+              class="flex w-[180px] h-[40px] relative"
+            >
+              <img
+                alt=""
+                class="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
+                src="https://avatars.githubusercontent.com/u/20971850?v=4"
+                style="left: 0px;"
+              />
+            </div>
+          </td>
+          <td
+            class="py-6 px-6 hidden xl:table-cell"
+          >
+            <button>
+              <img
+                alt=""
+                src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3086_630)'%3e%3cpath%20d='M6.66667%2014.1667L10%2017.5M10%2017.5L13.3333%2014.1667M10%2017.5V10M17.4%2015.075C18.1245%2014.5655%2018.6678%2013.8385%2018.9511%2012.9993C19.2343%2012.1601%2019.2428%2011.2525%2018.9753%2010.4082C18.7078%209.56387%2018.1782%208.82675%2017.4634%208.30381C16.7486%207.78087%2015.8857%207.49931%2015%207.50001H13.95C13.6994%206.52323%2013.2304%205.61605%2012.5784%204.84674C11.9265%204.07743%2011.1085%203.46606%2010.186%203.05863C9.26356%202.65121%208.26071%202.45836%207.25294%202.4946C6.24518%202.53084%205.25877%202.79523%204.36797%203.26786C3.47717%203.74049%202.70519%204.40905%202.11016%205.2232C1.51513%206.03735%201.11255%206.97588%200.932723%207.96813C0.752897%208.96038%200.800514%209.9805%201.07199%2010.9517C1.34346%2011.9229%201.83172%2012.8198%202.50001%2013.575'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3086_630'%3e%3crect%20width='20'%20height='20'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+              />
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

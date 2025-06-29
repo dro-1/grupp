@@ -67,7 +67,7 @@ export const Navbar = () => {
           <div className="flex items-center">
             <img className="block mr-[10px]" src={logo} alt="" />
           </div>
-          <button onClick={() => setSidebarOpen(true)}>
+          <button data-testid="hamburger" onClick={() => setSidebarOpen(true)}>
             <img src={hamburger} alt="" />
           </button>
         </nav>
@@ -83,9 +83,6 @@ export const Navbar = () => {
             : "opacity-0 pointer-events-none"
         )}
         onClick={() => setSidebarOpen(false)}
-        tabIndex={-1}
-        aria-hidden={!sidebarOpen}
-        role="button"
       />
       {/* Sidebar menu */}
       <aside
@@ -93,8 +90,7 @@ export const Navbar = () => {
           "fixed top-0 left-0 h-full w-[80vw] max-w-[400px] bg-white shadow-lg z-50 transform transition-transform duration-300 flex flex-col lg:translate-x-0 lg:static lg:w-[280px] lg:h-screen lg:overflow-y-auto lg:shrink-0",
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         )}
-        tabIndex={-1}
-        aria-hidden={!sidebarOpen}
+        data-testid="sidebar"
       >
         <div className="p-4 flex justify-between items-center">
           <img className="block mr-[10px]" src={logo} alt="" />

@@ -1,0 +1,166 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Active Role Card > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex p-4 bg-white border cursor-pointer border-gray-200 rounded-lg max-w-[784px]"
+        data-testid="active-role-card-001"
+      >
+        <div
+          class="bg-white w-[45px] h-[31px] border border-[#f2f4f7] flex justify-center items-center rounded-[6px] mr-3"
+        >
+          <img
+            alt=""
+            src="data:image/svg+xml,%3csvg%20width='24'%20height='20'%20viewBox='0%200%2024%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17%2019V17C17%2015.9391%2016.5786%2014.9217%2015.8284%2014.1716C15.0783%2013.4214%2014.0609%2013%2013%2013H5C3.9391%2013%202.9217%2013.4214%202.1716%2014.1716C1.4214%2014.9217%201%2015.9391%201%2017V19M23%2019V17C22.9993%2016.1137%2022.7044%2015.2528%2022.1614%2014.5523C21.6184%2013.8519%2020.8581%2013.3516%2020%2013.13M16%201.13C16.8604%201.3503%2017.623%201.8507%2018.1676%202.55231C18.7122%203.25392%2019.0078%204.1168%2019.0078%205.005C19.0078%205.8932%2018.7122%206.7561%2018.1676%207.4577C17.623%208.1593%2016.8604%208.6597%2016%208.88M13%205C13%207.2091%2011.2091%209%209%209C6.7909%209%205%207.2091%205%205C5%202.79086%206.7909%201%209%201C11.2091%201%2013%202.79086%2013%205Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+        </div>
+        <div
+          class="grow tracking-0 flex flex-col"
+        >
+          <em
+            class="not-italic font-medium text-sm text-gray-700"
+          >
+            Superadmin
+          </em>
+          <em
+            class="not-italic text-[#70798C] text-sm"
+          >
+            Last active 
+            06/2023
+          </em>
+          <div
+            class="mt-2"
+          >
+            <button
+              class="text-gray-500 font-medium text-sm mr-3 transition lg:hover:text-gray-700"
+            >
+              Set as default
+            </button>
+            <button
+              class="text-primary-700 font-medium text-sm transition lg:hover:text-primary-900"
+            >
+              Edit
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-4 h-4 bg-white border border-gray-300 rounded-full flex justify-center items-center transition"
+          data-testid="checkmark-container"
+        >
+          <img
+            alt=""
+            src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='white'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex p-4 bg-white border cursor-pointer border-gray-200 rounded-lg max-w-[784px]"
+      data-testid="active-role-card-001"
+    >
+      <div
+        class="bg-white w-[45px] h-[31px] border border-[#f2f4f7] flex justify-center items-center rounded-[6px] mr-3"
+      >
+        <img
+          alt=""
+          src="data:image/svg+xml,%3csvg%20width='24'%20height='20'%20viewBox='0%200%2024%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17%2019V17C17%2015.9391%2016.5786%2014.9217%2015.8284%2014.1716C15.0783%2013.4214%2014.0609%2013%2013%2013H5C3.9391%2013%202.9217%2013.4214%202.1716%2014.1716C1.4214%2014.9217%201%2015.9391%201%2017V19M23%2019V17C22.9993%2016.1137%2022.7044%2015.2528%2022.1614%2014.5523C21.6184%2013.8519%2020.8581%2013.3516%2020%2013.13M16%201.13C16.8604%201.3503%2017.623%201.8507%2018.1676%202.55231C18.7122%203.25392%2019.0078%204.1168%2019.0078%205.005C19.0078%205.8932%2018.7122%206.7561%2018.1676%207.4577C17.623%208.1593%2016.8604%208.6597%2016%208.88M13%205C13%207.2091%2011.2091%209%209%209C6.7909%209%205%207.2091%205%205C5%202.79086%206.7909%201%209%201C11.2091%201%2013%202.79086%2013%205Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+        />
+      </div>
+      <div
+        class="grow tracking-0 flex flex-col"
+      >
+        <em
+          class="not-italic font-medium text-sm text-gray-700"
+        >
+          Superadmin
+        </em>
+        <em
+          class="not-italic text-[#70798C] text-sm"
+        >
+          Last active 
+          06/2023
+        </em>
+        <div
+          class="mt-2"
+        >
+          <button
+            class="text-gray-500 font-medium text-sm mr-3 transition lg:hover:text-gray-700"
+          >
+            Set as default
+          </button>
+          <button
+            class="text-primary-700 font-medium text-sm transition lg:hover:text-primary-900"
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-4 h-4 bg-white border border-gray-300 rounded-full flex justify-center items-center transition"
+        data-testid="checkmark-container"
+      >
+        <img
+          alt=""
+          src="data:image/svg+xml,%3csvg%20width='10'%20height='10'%20viewBox='0%200%2010%2010'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.33329%202.5L3.74996%207.08333L1.66663%205'%20stroke='white'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

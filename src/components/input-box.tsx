@@ -19,6 +19,7 @@ export const InputBox: React.FC<InputBoxProps> = ({
         "mt-3 relative rounded-md transition-shadow duration-300 focus-within:shadow-[0_4px_0_0_#f4ebff,0_-4px_0_0_#f4ebff,4px_0_0_0_#f4ebff,-4px_0_0_0_#f4ebff]",
         className
       )}
+      data-testid="input-box"
     >
       <img
         className={twMerge(

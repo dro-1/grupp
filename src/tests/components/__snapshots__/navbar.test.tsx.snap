@@ -1,0 +1,714 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full fixed top-0 z-30 lg:hidden"
+      >
+         
+        <nav
+          class="p-4 flex justify-between items-center bg-white "
+        >
+          <div
+            class="flex items-center"
+          >
+            <img
+              alt=""
+              class="block mr-[10px]"
+              src="/src/assets/icons/logo.svg"
+            />
+          </div>
+          <button
+            data-testid="hamburger"
+          >
+            <img
+              alt=""
+              src="data:image/svg+xml,%3csvg%20width='20'%20height='15'%20viewBox='0%200%2020%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1%207.5H15M1%201.5H19M1%2013.5H19'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            />
+          </button>
+        </nav>
+        <div
+          class="w-full h-[1px] bg-gray-200"
+        />
+      </div>
+      <div
+        class="fixed inset-0 z-40 bg-black/30 transition-opacity duration-300 lg:hidden opacity-0 pointer-events-none"
+      />
+      <aside
+        class="fixed top-0 left-0 h-full w-[80vw] max-w-[400px] bg-white shadow-lg z-50 transform transition-transform duration-300 flex flex-col lg:translate-x-0 lg:static lg:w-[280px] lg:h-screen lg:overflow-y-auto lg:shrink-0 -translate-x-full"
+        data-testid="sidebar"
+      >
+        <div
+          class="p-4 flex justify-between items-center"
+        >
+          <img
+            alt=""
+            class="block mr-[10px]"
+            src="/src/assets/icons/logo.svg"
+          />
+        </div>
+        <div
+          class="px-4"
+        >
+          <div
+            class="relative rounded-md transition-shadow duration-300 focus-within:shadow-[0_4px_0_0_#f4ebff,0_-4px_0_0_#f4ebff,4px_0_0_0_#f4ebff,-4px_0_0_0_#f4ebff] mt-0"
+            data-testid="input-box"
+          >
+            <img
+              alt=""
+              class="absolute z-20 top-3 left-[14px]"
+              src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.5%2017.5L13.875%2013.875M15.8333%209.16667C15.8333%2012.8486%2012.8486%2015.8333%209.16667%2015.8333C5.48477%2015.8333%202.5%2012.8486%202.5%209.16667C2.5%205.48477%205.48477%202.5%209.16667%202.5C12.8486%202.5%2015.8333%205.48477%2015.8333%209.16667Z'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            />
+            <input
+              class="peer px-[14px] py-[10px] bg-white border border-gray-300 rounded-lg w-full text-gray-900 pl-[42px] outline-none transition focus:border-primary-500 relative z-10"
+              placeholder="Olivia Rhye"
+            />
+          </div>
+        </div>
+        <div
+          class="mt-2 px-4"
+        >
+          <ul
+            class="border border-gray-100 rounded-lg py-4"
+            style="box-shadow: 0px 4px 6px -2px #10182808, 0px 12px 16px -4px #10182814;"
+          >
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9%2022V12H15V22M3%209L12%202L21%209V20C21%2020.5304%2020.7893%2021.0391%2020.4142%2021.4142C20.0391%2021.7893%2019.5304%2022%2019%2022H5C4.46957%2022%203.96086%2021.7893%203.58579%2021.4142C3.21071%2021.0391%203%2020.5304%203%2020V9Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Home
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18%2020V10M12%2020V4M6%2020V14'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Dashboard
+                  </em>
+                </div>
+                <div
+                  class="w-9 h-6 bg-gray-100 flex justify-center items-center rounded-2xl font-medium text-sm text-gray-700"
+                >
+                  10
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2%2017L12%2022L22%2017M2%2012L12%2017L22%2012M12%202L2%207L12%2012L22%207L12%202Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Projects
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9%2011L12%2014L22%204M21%2012V19C21%2019.5304%2020.7893%2020.0391%2020.4142%2020.4142C20.0391%2020.7893%2019.5304%2021%2019%2021H5C4.46957%2021%203.96086%2020.7893%203.58579%2020.4142C3.21071%2020.0391%203%2019.5304%203%2019V5C3%204.46957%203.21071%203.96086%203.58579%203.58579C3.96086%203.21071%204.46957%203%205%203H16'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Tasks
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4%2015C4%2015%205%2014%208%2014C11%2014%2013%2016%2016%2016C19%2016%2020%2015%2020%2015V3C20%203%2019%204%2016%204C13%204%2011%202%208%202C5%202%204%203%204%203V15ZM4%2015V22'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Reporting
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17%2021V19C17%2017.9391%2016.5786%2016.9217%2015.8284%2016.1716C15.0783%2015.4214%2014.0609%2015%2013%2015H5C3.93913%2015%202.92172%2015.4214%202.17157%2016.1716C1.42143%2016.9217%201%2017.9391%201%2019V21M23%2021V19C22.9993%2018.1137%2022.7044%2017.2528%2022.1614%2016.5523C21.6184%2015.8519%2020.8581%2015.3516%2020%2015.13M16%203.13C16.8604%203.3503%2017.623%203.8507%2018.1676%204.55231C18.7122%205.25392%2019.0078%206.11683%2019.0078%207.005C19.0078%207.89317%2018.7122%208.75608%2018.1676%209.45769C17.623%2010.1593%2016.8604%2010.6597%2016%2010.88M13%207C13%209.20914%2011.2091%2011%209%2011C6.79086%2011%205%209.20914%205%207C5%204.79086%206.79086%203%209%203C11.2091%203%2013%204.79086%2013%207Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Users
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li
+              class="font-medium text-gray-700 px-3 py-2"
+            >
+              Drew Cano
+            </li>
+          </ul>
+        </div>
+        <div
+          class="grow lg:hidden"
+        />
+        <div
+          class="border-b border-gray-200 pb-6 mx-4 lg:mt-4 lg:border-0"
+        >
+          <ul>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4.93%204.93L9.17%209.17M14.83%2014.83L19.07%2019.07M19.07%204.93L14.83%209.17L18.36%205.64M4.93%2019.07L9.17%2014.83M22%2012C22%2017.5228%2017.5228%2022%2012%2022C6.47715%2022%202%2017.5228%202%2012C2%206.47715%206.47715%202%2012%202C17.5228%202%2022%206.47715%2022%2012ZM16%2012C16%2014.2091%2014.2091%2016%2012%2016C9.79086%2016%208%2014.2091%208%2012C8%209.79086%209.79086%208%2012%208C14.2091%208%2016%209.79086%2016%2012Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Support
+                  </em>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+                href="/"
+              >
+                <div
+                  class="flex"
+                >
+                  <img
+                    alt=""
+                    class="inline-block mr-3"
+                    src="/src/assets/icons/settings.svg"
+                  />
+                  <em
+                    class="not-italic font-medium text-gray-700"
+                  >
+                    Settings
+                  </em>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-gray-50 rounded-lg mx-4 px-4 py-5  hidden lg:block"
+        >
+          <h3
+            class="font-medium text-sm text-gray-900 mb-1"
+          >
+            New features available!
+          </h3>
+          <em
+            class="not-italic text-sm text-gray-500"
+          >
+            Check out the new dashboard view. Pages now load faster
+          </em>
+          <img
+            alt=""
+            class="inline-block rounded-[6px] my-4"
+            src="/src/assets/images/nav-image.png"
+          />
+          <div>
+            <button
+              class="font-medium text-sm text-gray-500 mr-3 transition lg:hover:text-gray-400"
+            >
+              Dismiss
+            </button>
+            <button
+              class="font-medium text-sm text-primary-700 transition lg:hover:text-primary-900"
+            >
+              What's new?
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-start mt-6 px-4 pb-8 lg:border-t lg:border-gray-200 lg:pt-6 lg:mx-4 lg:px-0"
+        >
+          <img
+            alt=""
+            class="w-10 h-10 rounded-full inline-block mr-3"
+            src="/src/assets/images/user-1.png"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <em
+              class="not-italic font-medium text-gray-900 text-sm"
+            >
+              Olivia Rhyne
+            </em>
+            <em
+              class="not-italic text-sm text-gray-500"
+            >
+              olivia@untitledui.com
+            </em>
+          </div>
+          <div
+            class="grow"
+          />
+          <button
+            class="w-9 h-9 rounded-lg flex justify-center items-center transition lg:hover:bg-gray-50"
+          >
+            <img
+              alt=""
+              src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.5%2017.5H4.16667C3.72464%2017.5%203.30072%2017.3244%202.98816%2017.0118C2.67559%2016.6993%202.5%2016.2754%202.5%2015.8333V4.16667C2.5%203.72464%202.67559%203.30072%202.98816%202.98816C3.30072%202.67559%203.72464%202.5%204.16667%202.5H7.5M13.3333%2014.1667L17.5%2010M17.5%2010L13.3333%205.83333M17.5%2010H7.5'%20stroke='%23667085'%20stroke-width='1.67'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+            />
+          </button>
+        </div>
+      </aside>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full fixed top-0 z-30 lg:hidden"
+    >
+       
+      <nav
+        class="p-4 flex justify-between items-center bg-white "
+      >
+        <div
+          class="flex items-center"
+        >
+          <img
+            alt=""
+            class="block mr-[10px]"
+            src="/src/assets/icons/logo.svg"
+          />
+        </div>
+        <button
+          data-testid="hamburger"
+        >
+          <img
+            alt=""
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='15'%20viewBox='0%200%2020%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1%207.5H15M1%201.5H19M1%2013.5H19'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+        </button>
+      </nav>
+      <div
+        class="w-full h-[1px] bg-gray-200"
+      />
+    </div>
+    <div
+      class="fixed inset-0 z-40 bg-black/30 transition-opacity duration-300 lg:hidden opacity-0 pointer-events-none"
+    />
+    <aside
+      class="fixed top-0 left-0 h-full w-[80vw] max-w-[400px] bg-white shadow-lg z-50 transform transition-transform duration-300 flex flex-col lg:translate-x-0 lg:static lg:w-[280px] lg:h-screen lg:overflow-y-auto lg:shrink-0 -translate-x-full"
+      data-testid="sidebar"
+    >
+      <div
+        class="p-4 flex justify-between items-center"
+      >
+        <img
+          alt=""
+          class="block mr-[10px]"
+          src="/src/assets/icons/logo.svg"
+        />
+      </div>
+      <div
+        class="px-4"
+      >
+        <div
+          class="relative rounded-md transition-shadow duration-300 focus-within:shadow-[0_4px_0_0_#f4ebff,0_-4px_0_0_#f4ebff,4px_0_0_0_#f4ebff,-4px_0_0_0_#f4ebff] mt-0"
+          data-testid="input-box"
+        >
+          <img
+            alt=""
+            class="absolute z-20 top-3 left-[14px]"
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.5%2017.5L13.875%2013.875M15.8333%209.16667C15.8333%2012.8486%2012.8486%2015.8333%209.16667%2015.8333C5.48477%2015.8333%202.5%2012.8486%202.5%209.16667C2.5%205.48477%205.48477%202.5%209.16667%202.5C12.8486%202.5%2015.8333%205.48477%2015.8333%209.16667Z'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+          <input
+            class="peer px-[14px] py-[10px] bg-white border border-gray-300 rounded-lg w-full text-gray-900 pl-[42px] outline-none transition focus:border-primary-500 relative z-10"
+            placeholder="Olivia Rhye"
+          />
+        </div>
+      </div>
+      <div
+        class="mt-2 px-4"
+      >
+        <ul
+          class="border border-gray-100 rounded-lg py-4"
+          style="box-shadow: 0px 4px 6px -2px #10182808, 0px 12px 16px -4px #10182814;"
+        >
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9%2022V12H15V22M3%209L12%202L21%209V20C21%2020.5304%2020.7893%2021.0391%2020.4142%2021.4142C20.0391%2021.7893%2019.5304%2022%2019%2022H5C4.46957%2022%203.96086%2021.7893%203.58579%2021.4142C3.21071%2021.0391%203%2020.5304%203%2020V9Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Home
+                </em>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18%2020V10M12%2020V4M6%2020V14'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Dashboard
+                </em>
+              </div>
+              <div
+                class="w-9 h-6 bg-gray-100 flex justify-center items-center rounded-2xl font-medium text-sm text-gray-700"
+              >
+                10
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2%2017L12%2022L22%2017M2%2012L12%2017L22%2012M12%202L2%207L12%2012L22%207L12%202Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Projects
+                </em>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9%2011L12%2014L22%204M21%2012V19C21%2019.5304%2020.7893%2020.0391%2020.4142%2020.4142C20.0391%2020.7893%2019.5304%2021%2019%2021H5C4.46957%2021%203.96086%2020.7893%203.58579%2020.4142C3.21071%2020.0391%203%2019.5304%203%2019V5C3%204.46957%203.21071%203.96086%203.58579%203.58579C3.96086%203.21071%204.46957%203%205%203H16'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Tasks
+                </em>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4%2015C4%2015%205%2014%208%2014C11%2014%2013%2016%2016%2016C19%2016%2020%2015%2020%2015V3C20%203%2019%204%2016%204C13%204%2011%202%208%202C5%202%204%203%204%203V15ZM4%2015V22'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Reporting
+                </em>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17%2021V19C17%2017.9391%2016.5786%2016.9217%2015.8284%2016.1716C15.0783%2015.4214%2014.0609%2015%2013%2015H5C3.93913%2015%202.92172%2015.4214%202.17157%2016.1716C1.42143%2016.9217%201%2017.9391%201%2019V21M23%2021V19C22.9993%2018.1137%2022.7044%2017.2528%2022.1614%2016.5523C21.6184%2015.8519%2020.8581%2015.3516%2020%2015.13M16%203.13C16.8604%203.3503%2017.623%203.8507%2018.1676%204.55231C18.7122%205.25392%2019.0078%206.11683%2019.0078%207.005C19.0078%207.89317%2018.7122%208.75608%2018.1676%209.45769C17.623%2010.1593%2016.8604%2010.6597%2016%2010.88M13%207C13%209.20914%2011.2091%2011%209%2011C6.79086%2011%205%209.20914%205%207C5%204.79086%206.79086%203%209%203C11.2091%203%2013%204.79086%2013%207Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Users
+                </em>
+              </div>
+            </a>
+          </li>
+          <li
+            class="font-medium text-gray-700 px-3 py-2"
+          >
+            Drew Cano
+          </li>
+        </ul>
+      </div>
+      <div
+        class="grow lg:hidden"
+      />
+      <div
+        class="border-b border-gray-200 pb-6 mx-4 lg:mt-4 lg:border-0"
+      >
+        <ul>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4.93%204.93L9.17%209.17M14.83%2014.83L19.07%2019.07M19.07%204.93L14.83%209.17L18.36%205.64M4.93%2019.07L9.17%2014.83M22%2012C22%2017.5228%2017.5228%2022%2012%2022C6.47715%2022%202%2017.5228%202%2012C2%206.47715%206.47715%202%2012%202C17.5228%202%2022%206.47715%2022%2012ZM16%2012C16%2014.2091%2014.2091%2016%2012%2016C9.79086%2016%208%2014.2091%208%2012C8%209.79086%209.79086%208%2012%208C14.2091%208%2016%209.79086%2016%2012Z'%20stroke='%23667085'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Support
+                </em>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex justify-between items-center px-3 py-2 transition lg:hover:bg-gray-50"
+              href="/"
+            >
+              <div
+                class="flex"
+              >
+                <img
+                  alt=""
+                  class="inline-block mr-3"
+                  src="/src/assets/icons/settings.svg"
+                />
+                <em
+                  class="not-italic font-medium text-gray-700"
+                >
+                  Settings
+                </em>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="bg-gray-50 rounded-lg mx-4 px-4 py-5  hidden lg:block"
+      >
+        <h3
+          class="font-medium text-sm text-gray-900 mb-1"
+        >
+          New features available!
+        </h3>
+        <em
+          class="not-italic text-sm text-gray-500"
+        >
+          Check out the new dashboard view. Pages now load faster
+        </em>
+        <img
+          alt=""
+          class="inline-block rounded-[6px] my-4"
+          src="/src/assets/images/nav-image.png"
+        />
+        <div>
+          <button
+            class="font-medium text-sm text-gray-500 mr-3 transition lg:hover:text-gray-400"
+          >
+            Dismiss
+          </button>
+          <button
+            class="font-medium text-sm text-primary-700 transition lg:hover:text-primary-900"
+          >
+            What's new?
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex items-start mt-6 px-4 pb-8 lg:border-t lg:border-gray-200 lg:pt-6 lg:mx-4 lg:px-0"
+      >
+        <img
+          alt=""
+          class="w-10 h-10 rounded-full inline-block mr-3"
+          src="/src/assets/images/user-1.png"
+        />
+        <div
+          class="flex flex-col"
+        >
+          <em
+            class="not-italic font-medium text-gray-900 text-sm"
+          >
+            Olivia Rhyne
+          </em>
+          <em
+            class="not-italic text-sm text-gray-500"
+          >
+            olivia@untitledui.com
+          </em>
+        </div>
+        <div
+          class="grow"
+        />
+        <button
+          class="w-9 h-9 rounded-lg flex justify-center items-center transition lg:hover:bg-gray-50"
+        >
+          <img
+            alt=""
+            src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.5%2017.5H4.16667C3.72464%2017.5%203.30072%2017.3244%202.98816%2017.0118C2.67559%2016.6993%202.5%2016.2754%202.5%2015.8333V4.16667C2.5%203.72464%202.67559%203.30072%202.98816%202.98816C3.30072%202.67559%203.72464%202.5%204.16667%202.5H7.5M13.3333%2014.1667L17.5%2010M17.5%2010L13.3333%205.83333M17.5%2010H7.5'%20stroke='%23667085'%20stroke-width='1.67'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+        </button>
+      </div>
+    </aside>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

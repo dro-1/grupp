@@ -1,0 +1,92 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input Box > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mt-3 relative rounded-md transition-shadow duration-300 focus-within:shadow-[0_4px_0_0_#f4ebff,0_-4px_0_0_#f4ebff,4px_0_0_0_#f4ebff,-4px_0_0_0_#f4ebff]"
+        data-testid="input-box"
+      >
+        <img
+          alt=""
+          class="absolute top-[15.33px] left-[15.67px] z-20"
+          src="data:image/svg+xml,%3csvg%20width='20'%20height='16'%20viewBox='0%200%2020%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.3333%203.00001C18.3333%202.08334%2017.5833%201.33334%2016.6666%201.33334H3.33329C2.41663%201.33334%201.66663%202.08334%201.66663%203.00001M18.3333%203.00001V13C18.3333%2013.9167%2017.5833%2014.6667%2016.6666%2014.6667H3.33329C2.41663%2014.6667%201.66663%2013.9167%201.66663%2013V3.00001M18.3333%203.00001L9.99996%208.83334L1.66663%203.00001'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+        />
+        <input
+          class="peer px-[14px] py-[10px] bg-white border border-gray-300 rounded-lg w-full text-gray-900 pl-[42px] outline-none transition focus:border-primary-500 relative z-10"
+          placeholder="billing@example.com"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mt-3 relative rounded-md transition-shadow duration-300 focus-within:shadow-[0_4px_0_0_#f4ebff,0_-4px_0_0_#f4ebff,4px_0_0_0_#f4ebff,-4px_0_0_0_#f4ebff]"
+      data-testid="input-box"
+    >
+      <img
+        alt=""
+        class="absolute top-[15.33px] left-[15.67px] z-20"
+        src="data:image/svg+xml,%3csvg%20width='20'%20height='16'%20viewBox='0%200%2020%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.3333%203.00001C18.3333%202.08334%2017.5833%201.33334%2016.6666%201.33334H3.33329C2.41663%201.33334%201.66663%202.08334%201.66663%203.00001M18.3333%203.00001V13C18.3333%2013.9167%2017.5833%2014.6667%2016.6666%2014.6667H3.33329C2.41663%2014.6667%201.66663%2013.9167%201.66663%2013V3.00001M18.3333%203.00001L9.99996%208.83334L1.66663%203.00001'%20stroke='%23667085'%20stroke-width='1.66667'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+      />
+      <input
+        class="peer px-[14px] py-[10px] bg-white border border-gray-300 rounded-lg w-full text-gray-900 pl-[42px] outline-none transition focus:border-primary-500 relative z-10"
+        placeholder="billing@example.com"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
