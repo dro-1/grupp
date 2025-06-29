@@ -18,7 +18,7 @@ export const ActiveRoleCard: React.FC<RoleCardProps> = ({
     <div
       onClick={onClick}
       className={twMerge(
-        "flex p-4 bg-white border border-gray-200 rounded-lg",
+        "flex p-4 bg-white border border-gray-200 rounded-lg max-w-[784px]",
         selected && "border-primary-300 bg-primary-50"
       )}
     >
@@ -45,13 +45,15 @@ export const ActiveRoleCard: React.FC<RoleCardProps> = ({
         <div className="mt-2">
           <button
             className={twMerge(
-              "text-gray-500 font-medium text-sm mr-3",
+              "text-gray-500 font-medium text-sm mr-3 transition hover:text-gray-700",
               selected && "text-primary-500"
             )}
           >
             Set as default
           </button>
-          <button className="text-primary-700 font-medium text-sm">Edit</button>
+          <button className="text-primary-700 font-medium text-sm transition hover:text-primary-900">
+            Edit
+          </button>
         </div>
       </div>
       <div
