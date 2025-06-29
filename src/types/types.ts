@@ -4,10 +4,14 @@ export type ActiveRole = {
   id: string;
 };
 
-export type Role = {
+export type APIRole = {
+  id: number;
   name: string;
   type: "DEFAULT" | "CUSTOM" | "SYSTEM-CUSTOM";
   date: string;
-  status: "ACTIVE" | "INACTIVE";
+  status: "Active" | "In Active";
   users: string[];
+  totalUser: number;
 };
+
+export type Role = Omit<APIRole, "totalUser"> & { userCount: number };

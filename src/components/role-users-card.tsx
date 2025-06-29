@@ -4,7 +4,7 @@ export const RoleUsersCard: React.FC<{ images: string[] }> = ({ images }) => {
       {images.slice(0, 5).map((image, idx) => (
         <img
           key={idx}
-          className="w-10 h-10 absolute top-0"
+          className="w-10 h-10 absolute top-0 rounded-full border-2 border-white"
           src={image}
           alt=""
           style={{

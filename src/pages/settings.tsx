@@ -129,7 +129,10 @@ export const Settings = () => {
             </div>
             <div className="mt-8 tracking-0">
               <div className="px-4 lg:px-8 lg:flex lg:justify-between lg:items-center">
-                <h3 className="text-gray-900 font-medium text-lg mb-4">
+                <h3
+                  id="user-roles"
+                  className="text-gray-900 font-medium text-lg mb-4"
+                >
                   User Roles
                 </h3>
                 <button className="bg-white border border-gray-300 py-[10px] px-4 rounded-lg flex font-medium text-sm text-gray-700 mb-[25px] transition lg:hover:bg-gray-50">
